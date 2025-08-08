@@ -1,0 +1,10 @@
+{
+  "manifest_version": 3,
+  "name": "Image Sorter",
+  "version": "1.0",
+  "description": "Сохраняет картинки в папку 'Изображения', остальное в 'Загрузки'.",
+  "permissions": ["downloads"],
+  "background": {
+    "service_worker": "background.js"
+  }
+}
